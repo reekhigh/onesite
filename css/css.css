@@ -64,9 +64,22 @@ transition: all .5s ease;
     z-index: 2;
 }
 
+
+}
+@media screen and (max-width: 550px)
+{
+.wrapper h2 {
+    font-size: 40px;}
+}
+@media screen and (max-width: 429px)
+{
+.wrapper h2 {
+    font-size: 30px;}
+}
+
 .grey {
 
-	background: gray;
+	background: #edeef0;
 }
 
 .font_8 {
@@ -95,4 +108,12 @@ font: normal normal normal 65px/1.25em oswald,sans-serif;
 }
 .color_grey {
 	color: gray;
+}
+
+@media screen and (max-width: 992px)
+{
+.wrapper h2 {
+    font-size: 45px;}
+.font_4 h4 {
+	font-size: 45px;
 }
